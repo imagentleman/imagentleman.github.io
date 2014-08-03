@@ -193,3 +193,7 @@ function close() {
 $(document).ready(function() {
 	init();
 });
+
+$(window).load(function() {
+	repaint();
+});
