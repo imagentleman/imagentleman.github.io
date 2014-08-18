@@ -62,3 +62,22 @@ body {
 	font-size: 49px;
 	font-weight: 300;
 }
+
+/*navigation stuff*/
+
+article {
+	transition: background-color .5s ease-in-out;
+	padding: 2rem;
+}
+
+article:hover {
+	background-color: #fff;
+}
+
+#mobius-castle article {
+	padding: 5rem;
+}
+
+#mobius-castle article:hover {
+	background-color: #ddd;
+}
