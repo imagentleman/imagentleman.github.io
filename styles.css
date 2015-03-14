@@ -1,22 +1,27 @@
+html {
+	font-size: 10px;
+}
+
 body {
 	background-color: #f6f6f6;
-	font-family: 'RobotoDraft';
-	padding: 5% 15%;
-	margin: 0 auto;
-	text-align: center;
 	color: #333;
+	font-family: 'RobotoDraft';
+	margin: 0 auto;
+	padding: 5% 15%;
+	text-align: center;
 }
 
 .header {
-	padding: 50px 0 0;
+	padding: 5rem 0 0;
 }
 
 	.menu {
-		text-decoration: none;
 		color: #999;
-		font-size: 12px;
+		display: inline-block;
+		font-size: 1.2rem;
 		font-weight: 400;
-		margin: 0 30px;
+		margin: 1rem 3rem;
+		text-decoration: none;
 	}
 
 	.menu:hover {
@@ -25,32 +30,36 @@ body {
 	}
 
 .tagline {
-	font-size: 49px;
+	font-size: 4.9rem;
 	font-weight: 100;
-	padding: 50px 0;
+	padding: 5rem 0;
 }
 
 .text {
-	font-size: 30px;
+	font-size: 3rem;
 	font-weight: 300;
 }
 
 .title {
-	font-size: 49px;
+	font-size: 4.9rem;
 	font-weight: 700;
-	padding: 200px 0 50px;
+	padding: 20rem 0 5rem;
 }
 
 .image {
-	margin: 100px 0;
-	max-width: 900px;
+	margin: 10rem 0;
+	max-width: 90rem;
+}
+
+.screenshot {
+	width: 100%;
 }
 
 .link {
 	color: #999;
-	transition: all .3s;
 	font-weight: 100;
 	text-decoration: none;
+	transition: all .3s;
 }
 
 	.link:hover {
@@ -59,15 +68,15 @@ body {
 
 /*acerca*/
 .desc {
-	font-size: 49px;
+	font-size: 4.9rem;
 	font-weight: 300;
 }
 
 /*navigation stuff*/
 
 article {
-	transition: background-color .5s ease-in-out;
 	padding: 2rem;
+	transition: background-color .5s ease-in-out;
 }
 
 article:hover {
@@ -80,4 +89,26 @@ article:hover {
 
 #mobius-castle article:hover {
 	background-color: #ddd;
+}
+
+@media (max-width: 1024px) {
+	html {
+		font-size: 8px;
+	}
+}
+
+@media (max-width: 640px) {
+	html {
+		font-size: 6px;
+	}
+
+	#mobius-castle {
+		display: none;
+	}
+}
+
+@media (max-width: 480px) {
+	html {
+		font-size: 3px;
+	}
 }
