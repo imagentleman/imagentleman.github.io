@@ -75,7 +75,7 @@ body {
 /*navigation stuff*/
 
 article {
-	padding: 2rem;
+	padding: 10rem;
 	transition: background-color .5s ease-in-out;
 }
 
