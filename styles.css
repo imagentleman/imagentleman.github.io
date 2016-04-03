@@ -1,114 +1,110 @@
 html {
-	font-size: 10px;
+  font-size: 10px;
 }
 
 body {
-	background-color: #f6f6f6;
-	color: #333;
-	font-family: 'RobotoDraft';
-	margin: 0 auto;
-	padding: 5% 15%;
-	text-align: center;
+  background-color: #f6f6f6;
+  color: #333;
+  font-family: 'RobotoDraft';
+  margin: 0 auto;
+  padding: 5% 15%;
+  text-align: center;
 }
 
 .header {
-	padding: 5rem 0 0;
+  padding: 5rem 0 0;
 }
 
-	.menu {
-		color: #999;
-		display: inline-block;
-		font-size: 1.2rem;
-		font-weight: 400;
-		margin: 1rem 3rem;
-		text-decoration: none;
-	}
+  .menu {
+    color: #999;
+    display: inline-block;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin: 1rem 3rem;
+    text-decoration: none;
+  }
 
-	.menu:hover {
-		color: #000;
-		transition: all .3s;
-	}
+  .menu:hover {
+    color: #000;
+    transition: all .3s;
+  }
 
 .tagline {
-	font-size: 4.9rem;
-	font-weight: 100;
-	padding: 5rem 0;
+  font-size: 4.9rem;
+  font-weight: 100;
+  padding: 5rem 0;
 }
 
 .text {
-	font-size: 3rem;
-	font-weight: 300;
+  font-size: 3rem;
+  font-weight: 300;
 }
 
 .title {
-	font-size: 4.9rem;
-	font-weight: 700;
-	padding: 20rem 0 5rem;
+  font-size: 4.9rem;
+  font-weight: 700;
+  padding: 20rem 0 5rem;
 }
 
 .image {
-	margin: 10rem 0;
-	max-width: 90rem;
+  margin: 10rem 0;
+  max-width: 90rem;
 }
 
 .screenshot {
-	width: 100%;
+  width: 100%;
 }
 
 .link {
-	color: #999;
-	font-weight: 100;
-	text-decoration: none;
-	transition: all .3s;
+  color: #999;
+  font-weight: 100;
+  text-decoration: none;
+  transition: all .3s;
 }
 
-	.link:hover {
-		color: #000;
-	}
+  .link:hover {
+    color: #000;
+  }
 
 /*acerca*/
 .desc {
-	font-size: 4.9rem;
-	font-weight: 300;
+  font-size: 4.9rem;
+  font-weight: 300;
 }
 
 /*navigation stuff*/
 
 article {
-	padding: 10rem;
-	transition: background-color .5s ease-in-out;
+  padding: 10rem;
+  transition: background-color .5s ease-in-out;
 }
 
 article:hover {
-	background-color: #fff;
+  background-color: #fff;
 }
 
 #mobius-castle article {
-	padding: 5rem;
+  padding: 5rem;
 }
 
 #mobius-castle article:hover {
-	background-color: #ddd;
+  background-color: #ddd;
 }
 
 @media (max-width: 1024px) {
-	html {
-		font-size: 8px;
-	}
+  html {
+    font-size: 8px;
+  }
 }
 
 @media (max-width: 640px) {
-	html {
-		font-size: 6px;
-	}
-
-	#mobius-castle {
-		display: none;
-	}
+  html {
+    font-size: 6px;
+  }
 }
 
 @media (max-width: 480px) {
-	html {
-		font-size: 3px;
-	}
+  html {
+    font-size: 3px;
+  }
 }
