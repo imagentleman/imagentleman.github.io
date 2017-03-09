@@ -37,7 +37,7 @@ body {
 
 .text {
   font-size: 2.4rem;
-  font-weight: 300;
+  font-weight: 400;
   margin-left: auto;
   margin-right: auto;
   max-width: 50ch;
@@ -60,7 +60,7 @@ body {
 
 .link {
   color: #999;
-  font-weight: 100;
+  font-weight: 400;
   text-decoration: none;
   transition: all .3s;
 }
